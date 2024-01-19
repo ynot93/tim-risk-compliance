@@ -1,0 +1,147 @@
+/* styles.css */
+body {
+    position: relative; 
+}
+
+.navbar {
+    background-color: #0367A6;
+    font-size: 18px !important;
+    padding: 10px;
+}
+
+.navbar li a,
+.navbar .navbar-brand {
+    color: #fff !important;
+}
+
+.navbar-nav li a:hover,
+.navbar-nav li.active a {
+    color: #0367A6 !important;
+    background-color: #fff !important;
+}
+
+.navbar-default .navbar-toggle {
+    border-color: transparent;
+    color: #fff !important;
+}
+
+.jumbotron {
+    background-image: url(images/northfolk-Ok76F6yW2iA-unsplash.jpg);
+    background-size: cover;
+    color: #377faf;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.bg-grey {
+    background-color: #f6f6f6;
+}
+
+@media screen and (max-width: 768px) {
+    .col-sm-4 {
+        text-align: center;
+        margin: 25px 0;
+    }
+}
+
+.about .container-fluid,
+.mission .container-fluid,
+.services .container-fluid {
+    min-height: 100vh;
+}
+
+.about-content {
+    padding: 280px;
+}
+
+.about h2,
+.about p,
+.services h2 {
+    margin: 0 auto;
+    max-width: 80%;
+}
+
+.pic {
+    height: auto;
+    max-width: 100%;
+}
+
+.vertical-center {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+}
+
+.services {
+    padding: 30px;
+    margin: 0 auto;
+    max-width: 80%;
+}
+
+.insights h2 {
+    padding-top: 20px;
+}
+
+.search-bar {
+    margin-bottom: 20px;
+    max-width: 31.5%;
+}
+
+.article-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-bottom: 20px;
+}
+
+.article {
+    width: calc(33.33% - 20px);
+    margin-bottom: 30px;
+    border: 1px solid #3776b1;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.article:hover {
+    box-shadow: 5px 0px 40px rgba(0, 0, 0, .2);
+}
+
+.article img {
+    width: 100%;
+    height: 30%;
+    object-fit: cover;
+}
+
+.article-content {
+    padding: 10px;
+    height: 70%;
+}
+
+.article-tags {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.read-more {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+}
+
+.contact {
+    margin: 70px auto;
+}
+
+.contact .map {
+    border: 1px solid #3776b1;
+    width: 70%;
+    padding: 0px 0px;
+}
+
+.contact .map img {
+    width: 100%;
+}
