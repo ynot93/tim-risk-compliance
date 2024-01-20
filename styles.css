@@ -88,7 +88,7 @@ body, html {
 }
 
 .about-content {
-    padding: 280px;
+    padding: 160px;
 }
 
 .about h2,
@@ -116,13 +116,12 @@ body, html {
     max-width: 80%;
 }
 
-.insights h2 {
-    padding-top: 20px;
+.service-content {
+    padding-top: 60px;
 }
 
-.search-bar {
-    margin-bottom: 20px;
-    max-width: 31.5%;
+.insights h2 {
+    padding-top: 20px;
 }
 
 .article-container {
@@ -153,6 +152,7 @@ body, html {
 .article-content {
     padding: 10px;
     height: 70%;
+    overflow: hidden;
 }
 
 .article-tags {
@@ -165,6 +165,24 @@ body, html {
     position: absolute;
     bottom: 10px;
     left: 10px;
+}
+
+/* Media Queries */
+@media (max-width: 992px) {
+    .article {
+        width: calc(50% - 20px);
+    }
+}
+
+@media (max-width: 768px) {
+    .article {
+        width: 100%;
+    }
+
+    .article-content {
+        max-height: 100%;
+        max-width: 100%;
+    }
 }
 
 .contact {
