@@ -27,6 +27,11 @@ body, html {
     color: #fff !important;
 }
 
+.navbar-toggler-icon {
+    background-color: #fff;
+}
+
+
 .jumbotron {
     position: relative;
     overflow: hidden;
@@ -88,14 +93,14 @@ body, html {
 }
 
 .about-content {
-    padding: 160px;
+    padding: 100px;
 }
 
 .about h2,
 .about p,
 .services h2 {
     margin: 0 auto;
-    max-width: 80%;
+    max-width: 70%;
 }
 
 .pic {
@@ -113,15 +118,15 @@ body, html {
 .services {
     padding: 30px;
     margin: 0 auto;
-    max-width: 80%;
+    max-width: 70%;
 }
 
 .service-content {
     padding-top: 60px;
 }
 
-.insights h2 {
-    padding-top: 20px;
+.insights {
+    padding-top: 80px;
 }
 
 .article-container {
@@ -141,6 +146,17 @@ body, html {
 
 .article:hover {
     box-shadow: 5px 0px 40px rgba(0, 0, 0, .2);
+}
+
+.about .container-fluid {
+    padding: 0px;
+    margin: 0px;
+}
+
+.article-page img {
+    width: 100%;
+    height: 40vh;
+    object-fit: cover;
 }
 
 .article img {
@@ -186,7 +202,11 @@ body, html {
 }
 
 .contact {
-    margin: 70px auto;
+    margin-bottom: 50px;
+}
+
+.contact .container-fluid {
+    padding: 80px;
 }
 
 .contact .map {
