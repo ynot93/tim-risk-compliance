@@ -86,14 +86,19 @@ body, html {
     }
 }
 
-.about .container-fluid,
-.mission .container-fluid,
-.services .container-fluid {
+.mission .container-fluid {
     min-height: 100vh;
 }
 
+.about .container-fluid {
+    min-height: 45vh;
+}
+
 .about-content {
-    padding: 100px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 100px;
+    padding-right: 100px;
 }
 
 .about h2,
@@ -101,6 +106,10 @@ body, html {
 .services h2 {
     margin: 0 auto;
     max-width: 70%;
+}
+
+.services .container-fluid {
+    min-height: 70vh;
 }
 
 .pic {
