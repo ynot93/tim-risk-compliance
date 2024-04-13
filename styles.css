@@ -31,14 +31,12 @@ body, html {
     background-color: #fff;
 }
 
-
 .jumbotron {
     position: relative;
     overflow: hidden;
     color: #ffffff;
     min-height: 100vh;
-    margin: 0;
-    padding: 0;
+
 }
 
 .video-container {
@@ -87,8 +85,22 @@ body, html {
 }
 
 .mission .container-fluid {
-    min-height: 100vh;
+    /* background-color: #A67C42; */
+    background-color: rgba(208, 170, 20, 0.052);
 }
+
+.analytics {
+    background-color: #4280A6;
+    min-height: 45vh;
+}
+
+.analytics h4 {
+    color: #51483B;
+}
+
+/* .analytics p {
+    color: #2E3133;
+} */
 
 .about .container-fluid {
     min-height: 45vh;
@@ -109,7 +121,7 @@ body, html {
 }
 
 .services .container-fluid {
-    min-height: 70vh;
+    min-height: 60vh;
 }
 
 .pic {
@@ -124,18 +136,22 @@ body, html {
     height: 100%;
 }
 
-.services {
+/* .services {
     padding: 30px;
     margin: 0 auto;
     max-width: 70%;
-}
+} */
 
 .service-content {
-    padding-top: 60px;
+    padding: 60px;
+    background-color: #55A3D4;
+
 }
 
 .insights {
     padding-top: 80px;
+    background-color: #4E96C3;
+
 }
 
 .article-container {
