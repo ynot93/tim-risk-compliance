@@ -89,6 +89,19 @@ body, html {
     background-color: rgba(208, 170, 20, 0.052);
 }
 
+.card {
+    margin: 4px;
+    width: 49%;
+    background-color: #f8f9fa; /* Light gray background */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Box shadow */
+    transition: box-shadow 0.3s ease; /* Smooth transition */
+}
+
+/* Hover effect for cards */
+.card:hover {
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2); /* Increase shadow on hover */
+}
+
 .analytics {
     background-color: #4280A6;
     min-height: 45vh;
