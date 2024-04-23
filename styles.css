@@ -6,7 +6,7 @@ body, html {
 }
 
 .navbar {
-    background-color: #0367A6;
+    background-color: #0368a6;
     font-size: 18px !important;
     padding: 10px;
 }
@@ -89,21 +89,21 @@ body, html {
     background-color: rgba(208, 170, 20, 0.052);
 }
 
-.card {
-    margin: 4px;
-    width: 49%;
+.card2 {
+    margin: 10px;
+    width: 48%;
     background-color: #f8f9fa; /* Light gray background */
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Box shadow */
     transition: box-shadow 0.3s ease; /* Smooth transition */
 }
 
 /* Hover effect for cards */
-.card:hover {
+.card2:hover {
     box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2); /* Increase shadow on hover */
 }
 
 .analytics {
-    background-color: #4280A6;
+    background-color: rgba(0, 0, 0, 0.05);
     min-height: 45vh;
 }
 
@@ -150,9 +150,7 @@ body, html {
 }
 
 /* .services {
-    padding: 30px;
-    margin: 0 auto;
-    max-width: 70%;
+    min-height: fit-content;
 } */
 
 .service-content {
@@ -163,7 +161,7 @@ body, html {
 
 .insights {
     padding-top: 80px;
-    background-color: #4E96C3;
+    /* background-color: #4E96C3; */
 
 }
 
@@ -180,6 +178,7 @@ body, html {
     border: 1px solid #3776b1;
     box-sizing: border-box;
     position: relative;
+    border-radius: 4px;
 }
 
 .article:hover {
