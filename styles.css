@@ -6,7 +6,7 @@ body, html {
 }
 
 .navbar {
-    background-color: #0368a6;
+    background-color: #1B2E33;
     font-size: 18px !important;
     padding: 10px;
 }
@@ -84,22 +84,29 @@ body, html {
     }
 }
 
-.mission .container-fluid {
-    /* background-color: #A67C42; */
-    background-color: rgba(208, 170, 20, 0.052);
+.mission {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.05), rgba(23, 103, 123, 0.192));
+    /* background-color: rgba(23, 103, 123, 0.192); */
+}
+
+.why-us {
+    background-color: #17677b31;
+    padding-top: 50px;
+    padding-bottom: 60px;
 }
 
 .card2 {
     margin: 10px;
     width: 48%;
-    background-color: #f8f9fa; /* Light gray background */
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Box shadow */
-    transition: box-shadow 0.3s ease; /* Smooth transition */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease;
 }
 
 /* Hover effect for cards */
 .card2:hover {
     box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2); /* Increase shadow on hover */
+    background-color: #17677b31;
+
 }
 
 .analytics {
@@ -160,8 +167,8 @@ body, html {
 }
 
 .insights {
-    padding-top: 80px;
-    /* background-color: #4E96C3; */
+    padding-top: 30px;
+    background-color: #17677b31;
 
 }
 
